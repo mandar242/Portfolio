@@ -2,15 +2,15 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Mandar Kulkarni', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Mandar',
   subtitle: '',
   cta: '',
 };
@@ -18,17 +18,20 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'I am a Computer Science Graduate student at California State University, Long Beach. Previously I have worked with Accenture as Associate Software Engineer and with Indicus Software as Software Engineer Intern.',
+  paragraphTwo:
+    'Having experience in various domains such as Web Application Development, Software Development and Internet of Things. I have good understanding of Javascript frameworks such as React.js, Node.js and database systems such as MongoDB and MySQL.',
+  paragraphThree:
+    'Also have understanding of Agile  Development, Docker, Kubernetes and tools such as git and Postman. Being a passionate techie, in my spare time, you can find me exploring new tools and technologies and working on personal projects, or as I like to call them.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'bughound.png',
     title: '',
     info: '',
     info2: '',
@@ -37,7 +40,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'vcs.jpg',
     title: '',
     info: '',
     info2: '',
@@ -46,7 +49,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'port.JPG',
     title: '',
     info: '',
     info2: '',
