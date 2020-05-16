@@ -48,6 +48,15 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cta-btn cta-btn--hero"
+                  href="https://www.linkedin.com/in/mandar242"
+                >
+                  {' '}
+                  My LinkedIn
+                </a>
               </div>
             </Fade>
           </Col>
