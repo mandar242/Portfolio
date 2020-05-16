@@ -54,7 +54,6 @@ const About = () => {
                   className="cta-btn cta-btn--hero"
                   href="https://www.linkedin.com/in/mandar242"
                 >
-                  {' '}
                   My LinkedIn
                 </a>
               </div>
