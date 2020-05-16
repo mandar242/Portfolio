@@ -13,6 +13,8 @@ export const heroData = {
   name: 'Mandar',
   subtitle: '',
   cta: '',
+  subtext: 'MS Computer Science. Cal State Long Beach.',
+  subsubtext: 'Class of 2021.',
 };
 
 // ABOUT DATA
@@ -32,29 +34,32 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'bughound.png',
-    title: '',
-    info: '',
+    title: 'Bug Hound',
+    info:
+      'A web-based bug recording and tracking software product. This will allow users to manage, record, and update any bugs during their development of their projects.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/mandar242/Bughound', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'vcs.jpg',
-    title: '',
-    info: '',
+    title: 'Version Control System',
+    info:
+      'Provides users functionalities to create, check-in, check-out, merge and modify repositories. Also maintains the history of operations performed.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/mandar242/Version-Control-System-using-Node.js', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'port.JPG',
-    title: '',
-    info: '',
+    title: 'Personal Portfolio',
+    info:
+      'A fully responsive personal portfolio website with features such as Single page layout, Modern UI design, Animations and styled with Bootstrap and custom SCSS.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://mandar242.netlify.com',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -62,7 +67,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'mandar242@gmail.com',
 };
 
 // FOOTER DATA
@@ -70,23 +75,18 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/mandar242',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/mandar242',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://www.github.com/mandar242',
     },
   ],
 };

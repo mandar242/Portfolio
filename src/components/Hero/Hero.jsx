@@ -5,7 +5,7 @@ import PortfolioContext from '../../context/context';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, subtitle, cta, subtext, subsubtext } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -30,6 +30,12 @@ const Header = () => {
             <span className="text-color-main"> {name || 'Your Name'} </span> <br />{' '}
             {subtitle || 'I like to make stuff with code.'}
           </h1>
+          <h2 className="hero-subtext">
+            {' '}
+            {subtext}
+            <br />
+            {subsubtext}
+          </h2>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
