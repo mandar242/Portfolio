@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map(project => {
-            const { id, title, info, info2, url, repo, img } = project;
+            const { id, title, info, info2, info3, url, repo, link, img } = project;
 
             return (
               <Row key={id}>
@@ -68,6 +68,20 @@ const Projects = () => {
                         >
                           See Live
                         </a>
+                      )}
+                      {link && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={link}
+                        >
+                          Paper Link
+                        </a>
+                      )}
+                      {info3 && (
+                        // eslint-disable-next-line jsx-a11y/anchor-is-valid
+                        <p className="cta-btn cta-btn--hero">This Website</p>
                       )}
                     </div>
                   </Fade>

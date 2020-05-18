@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphTwo:
     'Having experience in various domains such as Web Application Development, Software Development and Internet of Things. I have good understanding of Javascript frameworks such as React.js, Node.js and database systems such as MongoDB and MySQL.',
   paragraphThree:
-    'Also have understanding of Agile  Development, Docker, Kubernetes and tools such as git and Postman. Being a passionate techie, in my spare time, you can find me exploring new tools and technologies and working on personal projects, or as I like to call them.',
+    'Also have understanding of Agile  Development, Docker, Kubernetes and tools such as Git and Postman. Being a passionate techie, in my spare time, you can find me exploring new tools and technologies and working on projects, or "passion projects" as I like to call them.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -53,12 +53,25 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'ieee.jpg',
+    title: 'Smart Water Management in Housing Societies Using IoT',
+    info:
+      'Designed, Developed and Implemented a Internet of Things based smart water management system.',
+    info2:
+      'Published a paper on the same in IEEE conference (2018 Second ICICCT), published by IEEE.',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+    link: 'https://ieeexplore.ieee.org/document/8473262',
+  },
+  {
+    id: uuidv1(),
     img: 'port.JPG',
     title: 'Personal Portfolio',
     info:
       'A fully responsive personal portfolio website with features such as Single page layout, Modern UI design, Animations and styled with Bootstrap and custom SCSS.',
     info2: '',
-    url: 'https://mandar242.netlify.com',
+    info3: '"This Website"',
+    url: '',
     repo: '', // if no repo, the button will not show up
   },
 ];
