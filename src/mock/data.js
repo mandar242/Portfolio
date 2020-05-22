@@ -53,6 +53,16 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'gradient.JPG',
+    title: 'Gradient Generator',
+    info: 'A Gradient Generator using vanilla Javascript, HTML5 and CSS3.',
+    info2: '',
+    info3: '',
+    url: 'https://mandar242.github.io/Gradient-Generator/',
+    repo: 'https://github.com/mandar242/Gradient-Generator', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'ieee.jpg',
     title: 'Smart Water Management in Housing Societies Using IoT',
     info:
