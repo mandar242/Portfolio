@@ -33,6 +33,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'covid.JPG',
+    title: 'COVID - 19 Tracker',
+    info: 'A covid-19 tracker application developed using React.js',
+    info2: '',
+    url: 'https://covid-app-10595.web.app/',
+    repo: 'https://github.com/mandar242/COVID-19-Tracker', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'bughound.png',
     title: 'Bug Hound',
     info:
