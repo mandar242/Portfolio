@@ -42,6 +42,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'sb.jpg',
+    title: 'Smart Brain',
+    info:'A full stack web application with features such as login, register and face detection from image URL provided by user.',
+    info2: '',
+    url: 'https://smartbrain-mern.herokuapp.com/',
+    repo: 'https://github.com/sharvarikhedkar/SmartBrain-api', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'bughound.png',
     title: 'Bug Hound',
     info:
